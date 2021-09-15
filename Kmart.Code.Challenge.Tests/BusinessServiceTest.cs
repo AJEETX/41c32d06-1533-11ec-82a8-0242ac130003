@@ -41,9 +41,9 @@ namespace Kmart.Code.Challenge.Tests
 
         [Theory]
         //Input with non-integer values
-        [InlineData("xyz 12asaf 1 2")]
+        [InlineData("azy 12 1 2")]
         //Input with more than single space
-        [InlineData("12  12 1")]
+        [InlineData("12  123")]
         public void GetSubsequence_With_InvalidInput_ThrowsArgumentException(string input)
         {
             //given
