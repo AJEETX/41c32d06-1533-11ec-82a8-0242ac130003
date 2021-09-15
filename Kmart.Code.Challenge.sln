@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kmart.Code.Challenge", "Kmart.Code.Challenge\Kmart.Code.Challenge.csproj", "{85EBCF83-1B14-48D5-B9A8-9C4B489942D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kmart.Code.Challenge", "Kmart.Code.Challenge\Kmart.Code.Challenge.csproj", "{85EBCF83-1B14-48D5-B9A8-9C4B489942D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kmart.Code.Challenge.Tests", "Kmart.Code.Challenge.Tests\Kmart.Code.Challenge.Tests.csproj", "{AC248953-97A9-44E3-B730-F0541635C0CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14F012B1-381C-48E9-819B-AD51DDB4278C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{85EBCF83-1B14-48D5-B9A8-9C4B489942D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85EBCF83-1B14-48D5-B9A8-9C4B489942D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85EBCF83-1B14-48D5-B9A8-9C4B489942D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC248953-97A9-44E3-B730-F0541635C0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC248953-97A9-44E3-B730-F0541635C0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC248953-97A9-44E3-B730-F0541635C0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC248953-97A9-44E3-B730-F0541635C0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
