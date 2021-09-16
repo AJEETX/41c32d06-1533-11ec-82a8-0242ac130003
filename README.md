@@ -25,6 +25,7 @@ The repository consists of projects as below:
 # Solution synopsis:
 -   The repository name is a [UUID](https://www.uuidgenerator.net/version4).
 -   Followed SOLID principle to implement the business requirement.
+-   Integrated linting to standardize quality definitions and compliance through rules
 -   Establised a robust design by ensuring full test code-coverge.
 -   Setup Continuous Integration through [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions).
 
