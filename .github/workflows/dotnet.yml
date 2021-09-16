@@ -13,13 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET
+    - name: Setup .NET env for the class library Kmart.Code.Challenge
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
-    - name: Restore dependencies
+    - name: Restore dependencies by pulling the nuget packages
       run: dotnet restore
-    - name: Build
+    - name: Build the class library Kmart.Code.Challenge
       run: dotnet build --no-restore
-    - name: Test
+    - name: Test the class library Kmart.Code.Challenge
       run: dotnet test --no-build --verbosity normal

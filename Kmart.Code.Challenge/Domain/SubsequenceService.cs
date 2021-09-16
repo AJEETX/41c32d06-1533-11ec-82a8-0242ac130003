@@ -22,7 +22,6 @@ namespace Kmart.Code.Challenge
 
             for (int integerPositionIndex = 1; integerPositionIndex <= integers.Length; integerPositionIndex++)
             {
-
                 if (integerPositionIndex < integers.Length && integers[integerPositionIndex] > integers[integerPositionIndex - 1])
                 {
                     continue;
