@@ -18,7 +18,9 @@ The repository consists of projects as below:
 | 2 | Kmart.Code.Challenge.Tests | Test for .Net5 class library |  **Kmart.Code.Challenge.Tests** | [![.Net Framework](https://img.shields.io/badge/DotNet-5.0-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/5.0)| 
 
 
->   Since my PC does not support docker [as of now :( ], the github actions workflow runs the dotnet sdk
+>   Since my PC does not support docker [as of now :( ], the github actions workflow runs the dotnet sdk.
+
+ I have previously implemented [docker sample](https://github.com/dotnetcore5/dotnet2-microservices-docker-swagger) through `docker-compose`
 
 # Solution synopsis:
 -   The repository name is a [UUID](https://www.uuidgenerator.net/version4).
