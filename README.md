@@ -21,7 +21,7 @@ The repository consists of projects as below:
 >   Since my PC does not support docker [as of now :( ], the github actions workflow runs the dotnet sdk
 
 # Solution synopsis:
--   The repository name is a UUID.
+-   The repository name is a [UUID](https://www.uuidgenerator.net/version4).
 -   Followed SOLID principle to implement the business requirement.
 -   Establised a robust design by ensuring full test code-coverge.
 -   Setup Continuous Integration through [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions).
