@@ -19,7 +19,7 @@ namespace Kmart.Code.Challenge
         }
         public string GetSubsequence(string input)
         {
-            //validate/check the input
+            //good to validate/check the input at the entry of public method
             if (string.IsNullOrWhiteSpace(input))
             {
                 throw new ArgumentNullException($"{nameof(BusinessService)}:{nameof(GetSubsequence)}- {nameof(input)} is empty.");
@@ -27,10 +27,8 @@ namespace Kmart.Code.Challenge
 
             try
             {
-                //splitting the input string into list of values separated by SINGLE white-space
                 var integers = input.Split(SINGLE_SPACE).Select(long.Parse).ToArray();
 
-                //pull the longest increasing sub-sequence
                 return _subsequenceService.GetLongestIncreasingSubsequence(integers);
             }
             catch (Exception ex)

@@ -12,7 +12,7 @@ namespace Kmart.Code.Challenge
     {
         public string GetLongestIncreasingSubsequence(long[] integers)
         {
-            //validate/check the integers count
+            //good to validate/check the integers count at the entry of public method
             if (integers.Length < 1)
             {
                 throw new ArgumentException($"{nameof(SubsequenceService)}:{nameof(GetLongestIncreasingSubsequence)}-{nameof(integers)} is empty.");
